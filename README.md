@@ -4,9 +4,9 @@ This project explores how deep learning can be used to colorize black-and-white 
 
 Most manga are originally drawn in black and white. Coloring them manually takes a lot of time. In this project, I wanted to see if a model can learn how to generate color automatically from manga line art.
 
-The main idea: black-and-white manga image to colored manga image
+The main idea: **black-and-white manga image to colored manga image**
 
-This project mainly focuses on training experiments and exploring different ways to improve the model results.
+This project mainly focuses on **training experiments and exploring different ways to improve the model results**.
 
 ## Why Used Pix2Pix
 
