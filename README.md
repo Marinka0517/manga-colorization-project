@@ -8,7 +8,7 @@ The main idea: **black-and-white manga image to colored manga image**
 
 This project mainly focuses on **training experiments and exploring different ways to improve the model results**.
 
-## Why Used Pix2Pix
+## Why I Used Pix2Pix
 
 The **Pix2Pix GAN framework** is designed for image-to-image translation tasks.
 
@@ -24,7 +24,7 @@ The generator tries to create a colored image from the black-and-white manga inp
 **Discriminator (PatchGAN)**  
 The discriminator checks whether the generated image looks real or fake.
 
-During training, the generator attempts to deceive the discriminator, and the discriminator attempts to detect fake images. This process helps the generator gradually produce better results.
+During training, the generator tries to fool the discriminator, and the discriminator tries to tell whether the image is real or fake.
 
 ## My Role in the Project
 
@@ -90,7 +90,7 @@ Fine-tuning helped the model adapt to the dataset and sometimes produced more st
 
 ## Results
 
-Some generated images can be found in the results folder.
+Some example results can be found in the `results` folder.
 
 The results include outputs from:
 - baseline Pix2Pix training
@@ -107,7 +107,9 @@ I also built a simple **Gradio interface** to test the trained model.
 
 Users can upload a black-and-white manga image, and the model will generate a colorized version.
 
-A demo video of the Gradio interface is available in the demo folder.
+A demo video of the Gradio interface can be found here:
+
+[Watch Demo](demo/gradio_demo.mov)
 
 ## Conclusion
 
