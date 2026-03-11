@@ -8,6 +8,13 @@ The main idea: **black-and-white manga image to colored manga image**
 
 This project mainly focuses on **training experiments and exploring different ways to improve the model results**.
 
+## Technologies
+
+- Python
+- PyTorch
+- Pix2Pix GAN
+- U-Net architecture
+
 ## Why I Used Pix2Pix
 
 The **Pix2Pix GAN framework** is designed for image-to-image translation tasks.
